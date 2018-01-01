@@ -1,8 +1,8 @@
 ---
 layout: default
 title:  "网页的logo更改"
-date:   2017-12-07 23:45:15 +0800
-categories: infovis
+date:   2018-1-1 
+categories: posts
 ---
 
 # 在网页打开时候，浏览器出现你的logo
