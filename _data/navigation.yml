@@ -3,12 +3,14 @@
 - title: 网页设计作品集
   url: /portfolio/ 
   excerpt: "网页设计的个人作品集"
-  image: Pigeon_post.jpg
+  image: Pigeon_post.svg
 
 - title: 信息可视化作品集
   url: /infovis/ 
-  excerpt: "信息可视化的个人作品集"  
+  excerpt: "信息可视化的个人作品集"
+  image: keshihua.svg  
   
 - title: 学习笔记
   url: /posts/ 
   excerpt: "课堂笔记"
+  image: biji.svg 
