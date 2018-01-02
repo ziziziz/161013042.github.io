@@ -8,9 +8,7 @@ categories: portfolio
 {% for post in site.posts %}
 	{% if post.categories contains 'portfolio' %}
 		{% for title in post.title %} 
-							<li>
-						{{post.title}}
-							</li>
+						<li><a href="{{ post.url | prepend: site.baseurl }}">		</a>		</li>
 		{% endfor %}
 	{% endif %}
 {% endfor %}
