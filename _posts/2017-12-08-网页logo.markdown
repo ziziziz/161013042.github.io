@@ -3,6 +3,9 @@ layout: default
 title:  "网页的logo更改"
 date:   2018-1-1 
 categories: portfolio
+image:
+  teaser: wysj1.jpg
+  feature: wysj1.jpg
 ---
 
 # 在网页打开时候，浏览器出现你的logo
