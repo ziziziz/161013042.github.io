@@ -3,3 +3,15 @@ layout: default
 title:  "网页设计作品"
 categories: portfolio
 ---
+
+<div class="tiles">
+{% for post in site.posts %}
+	{% if post.categories contains 'portfolio' %}
+		{% for title in post.title %} 
+							<li>< a href=" ">
+						{{post.title}}
+							</ a></li>
+		{% endfor %}
+	{% endif %}
+{% endfor %}
+</div><!-- /.tiles -->
