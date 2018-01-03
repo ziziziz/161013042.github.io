@@ -8,6 +8,7 @@ categories: posts
 <div class="tiles">
 {% for post in site.posts %}
 	{% if post.categories contains 'posts rwd' %}
+	hello
 		{% for title in post.title %} 
 						<li>{% include post-grid.html %}</li>
 						
