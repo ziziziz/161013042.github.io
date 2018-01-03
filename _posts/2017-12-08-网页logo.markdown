@@ -2,7 +2,9 @@
 layout: default
 title:  "网页的logo更改"
 date:   2018-1-1 
-categories: portfolio
+categories: posts
+tag: rwd
+permalink: /posts/rwd/网页的logo更改
 image:
   teaser: wysj1.jpg
   feature: wysj1.jpg
