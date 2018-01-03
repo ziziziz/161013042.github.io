@@ -9,7 +9,6 @@ categories: infovis
 {% for post in site.posts %}
 	{% if post.categories contains 'infovis' %}
 		{% for title in post.title %} 
-						<li>{{image}}<li>
 						<li>{% include post-grid.html %}		</li>
 						
 		{% endfor %}
