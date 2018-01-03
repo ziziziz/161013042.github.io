@@ -4,7 +4,7 @@ title:  "学习笔记"
 categories: posts
 ---
 
-
+<h3>RWD<h3>
 <div class="tiles">
 {% for post in site.posts %}
 	{% if post.categories contains 'posts rwd' %}
@@ -18,4 +18,14 @@ categories: posts
 
 
 
-
+<h3>Infivos<h3>
+<div class="tiles">
+{% for post in site.posts %}
+	{% if post.categories contains 'posts infovis' %}
+		{% for title in post.title %} 
+						<li>{% include post-grid.html %}		</li>
+						
+		{% endfor %}
+	{% endif %}
+{% endfor %}
+</div><!-- /.tiles -->
