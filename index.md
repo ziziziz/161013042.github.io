@@ -10,4 +10,3 @@ title: "专题"
 {% endfor %}
 </div><!-- /.tiles -->
 
-<a href="https://161013042.github.io/infovis/example.html"><img src="html5.jpg" alt="图片加载失败"><br><b>网页设计笔记</b><br>基础常见html5标签</a>
