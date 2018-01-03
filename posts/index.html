@@ -4,12 +4,12 @@ title:  "学习笔记"
 categories: posts
 ---
 
-<h3>RWD<h3>
+
 <div class="tiles">
 {% for post in site.posts %}
 	{% if post.categories contains 'posts rwd' %}
 		{% for title in post.title %} 
-						<li>{% include post-grid.html %}</a>		</li>
+						<li>{% include post-grid.html %}</li>
 						
 		{% endfor %}
 	{% endif %}
