@@ -8,9 +8,9 @@ categories: posts
 hello
 <div class="tiles">
 {% for post in site.posts %}
-hello
-	{% if post.categories contains 'posts rwd' %}
-	hello
+{{% post.title %}}<p>hello</p>
+	{% if post.tag contains 'rwd' %}
+	{{% post.title %}}<p>hello</p>
 		{% for title in post.title %} 
 						<li>{% include post-grid.html %}</li>
 						
