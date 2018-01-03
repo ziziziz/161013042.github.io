@@ -11,6 +11,7 @@ body {
 	color: $text-color;
 	background-image:
 		url('../images/ZGWJSSB.png'); 
+	background-attachment:fixed;
 	@include font-size(16);
 }
 
