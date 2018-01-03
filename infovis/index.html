@@ -7,6 +7,12 @@ categories: infovis
 
 <div class="tiles">
 {% for post in site.posts %}
-	{% include post-grid.html %}
+	{% if post.categories contains 'infovis' %}
+		{% for title in post.title %} 
+						<li>{{image}}<li>
+						<li>{% include post-grid.html %}		</li>
+						
+		{% endfor %}
+	{% endif %}
 {% endfor %}
 </div><!-- /.tiles -->
