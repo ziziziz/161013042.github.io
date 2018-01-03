@@ -9,6 +9,7 @@
 body {
 	font-family: $base-font;
 	color: $text-color;
+	background-color:#778899;
 	background-image:
 		url('../images/zhyc.png'); 
 	@include font-size(16);
