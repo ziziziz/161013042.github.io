@@ -9,7 +9,7 @@ categories: portfolio
 	{% if post.categories contains 'portfolio' %}
 		{% for title in post.title %} 
 						<li>{{image}}<li>
-						<li><a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a>		</li>
+						<li>{% include post-grid.html %}		</li>
 						
 		{% endfor %}
 	{% endif %}
