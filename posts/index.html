@@ -11,7 +11,7 @@ categories: posts
 	{% if post.tag contains 'rwd' %}
 	{{% post.title %}}
 		{% for title in post.title %} 
-						<li>{% include post-grid.html %}</li>
+						{% include post-grid.html %}
 						
 		{% endfor %}
 	{% endif %}
@@ -20,7 +20,7 @@ categories: posts
 
 <br>
 
-<br><h3>Infivos<h3>
+<br><a href="https://161013042.github.io/posts/infivos/"><h3>Infivos<h3>
 <div class="tiles">
 {% for post in site.posts %}
 	{% if post.categories contains 'posts infovis' %}
