@@ -23,9 +23,11 @@ categories: posts
 <br><a href="https://161013042.github.io/posts/infovis/"><h3>Infovis<h3>
 <div class="tiles">
 {% for post in site.posts %}
-	{% if post.categories contains 'posts infovis' %}
+{{% post.title %}}
+	{% if post.tag contains 'infovis' %}
+	{{% post.title %}}
 		{% for title in post.title %} 
-						<li>{% include post-grid.html %}		</li>
+						{% include post-grid.html %}
 						
 		{% endfor %}
 	{% endif %}
