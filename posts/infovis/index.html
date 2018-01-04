@@ -1,14 +1,14 @@
 ---
 layout: default
 title:  "学习笔记"
-categories: posts
+categories: posts infovis
 ---
 
-<h3>RWD<h3>
+<h3>infovis<h3>
 <div class="tiles">
 {% for post in site.posts %}
 {{% post.title %}}
-	{% if post.tag contains 'rwd' %}
+	{% if post.tag contains 'infovis' %}
 	{{% post.title %}}
 		{% for title in post.title %} 
 						<li>{% include post-grid.html %}</li>
