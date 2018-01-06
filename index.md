@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: default
 permalink: /
 title: "专题"
 ---
