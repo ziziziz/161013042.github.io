@@ -11,7 +11,7 @@ categories: posts rwd
 	{% if post.tag contains 'rwd' %}
 	{{% post.title %}}
 		{% for title in post.title %} 
-						<li>{% include post-grid.html %}</li>
+						{% include post-grid.html %}
 						
 		{% endfor %}
 	{% endif %}
