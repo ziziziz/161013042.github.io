@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: archive
 permalink: /
-title: "专题"
+title: "小小的成果"
 ---
 
 <div class="tiles">
@@ -9,4 +9,3 @@ title: "专题"
 	{% include post-grid.html %}
 {% endfor %}
 </div><!-- /.tiles -->
-
