@@ -36,3 +36,9 @@
     }
   }
 }
+@media print {
+  body { font-size: 17px;
+  background-color:rgba(203,236,255,1);
+  padding:15mm 10mm  15mm  10mm ;}
+  main { 
+	background-color:#FFFFF0;}
