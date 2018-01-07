@@ -1,0 +1,38 @@
+---
+layout: default
+title:  "学习笔记"
+categories: posts
+---
+<div>
+<a href="https://161013042.github.io/posts/rwd/"><h3>RWD<h3></a>
+<div class="tiles">
+{% for post in site.posts %}
+{{% post.title %}}
+	{% if post.tag contains 'rwd' %}
+	{{% post.title %}}
+		{% for title in post.title %} 
+						{% include post-grid.html %}
+						
+		{% endfor %}
+	{% endif %}
+{% endfor %}
+</div><!-- /.tiles -->
+</div>
+<br>
+<div>
+<br><a href="https://161013042.github.io/posts/infovis/"><h3>Infovis<h3>
+<div class="tiles">
+{% for post in site.posts %}
+{{% post.title %}}
+	{% if post.tag contains 'infovis' %}
+	{{% post.title %}}
+		{% for title in post.title %} 
+						{% include post-grid.html %}
+						
+		{% endfor %}
+	{% endif %}
+{% endfor %}
+</div><!-- /.tiles -->
+</div>
+
+

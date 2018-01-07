@@ -1,0 +1,19 @@
+---
+layout: default
+title:  "学习笔记"
+categories: posts rwd
+---
+
+<h3>RWD</h3>
+<div class="tiles">
+{% for post in site.posts %}
+{{% post.title %}}
+	{% if post.tag contains 'rwd' %}
+	{{% post.title %}}
+		{% for title in post.title %} 
+						<li>{% include post-grid.html %}</li>
+						
+		{% endfor %}
+	{% endif %}
+{% endfor %}
+</div><!-- /.tiles -->
