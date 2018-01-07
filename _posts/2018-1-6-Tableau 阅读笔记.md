@@ -6,8 +6,8 @@ categories: posts
 tag: infovis
 permalink: /posts/infovis/阅读笔记
 image:
-  teaser: wysj1.jpg
-  feature: wysj1.jpg
+  teaser: wysj10.jpg
+  feature: wysj10.jpg
 ---
 # Tableau 阅读笔记
 ## 对数据实际情景分析运用
